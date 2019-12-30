@@ -1,7 +1,7 @@
 {
-  "name": "BudgetFYI",
+  "name": "ReactPortfolio",
   "version": "1.0.0",
-  "description": "A decision making app built in react",
+  "description": "A portfolio application built in React",
   "main": "index.js",
   "author": "Nathaniel Rand",
   "license": "MIT",

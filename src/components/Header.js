@@ -4,22 +4,19 @@ import { NavLink } from "react-router-dom";
 const Header = () => (
   <header>
     <h1>
-      Budget<b className="header-title-fyi">FYI</b>
+      Portfolio<b className="header-title-fyi">React</b>
     </h1>
     <NavLink to="/" activeClassName="is-active" exact={true}>
-      Dashboard
+      Home
     </NavLink>
-    <NavLink to="/create" activeClassName="is-active">
-      Add Expense
-    </NavLink>
-    <NavLink to="/about" activeClassName="is-active">
-      About
+    <NavLink to="/portfolio" activeClassName="is-active" exact={true}>
+      Portfolio
     </NavLink>
     <NavLink to="/contact" activeClassName="is-active">
       Contact
     </NavLink>
-    <NavLink to="/help" activeClassName="is-active">
-      Help
+    <NavLink to="/about" activeClassName="is-active">
+      About
     </NavLink>
   </header>
 );
